@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  position: relative;
+  padding-top: 8.4rem;
+  padding-bottom: 8rem;
+}
+
+header nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 7rem;
+  background-color: #fff;
+}
+
+header nav ul{
+  line-height: 7rem;
+  text-align: right;
+  padding-right: 8rem;
+}
+
+nav ul li a{
+  text-transform: uppercase;
+  color: #000;
+}
+
+header h1{
+  margin-left: 3rem;
+  line-height: 4rem;
+}
+
+header .action img{
+  width: 8rem;
+  margin: 1.5rem 0;
+}
+
+header .action h1{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.action .btn{
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+
+/*servicio*/
+.servicio{
+  padding: 0 3rem;
+}
+.servicio h3{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.2rem;
+}
+.servicio i{
+  font-size: 6em;
+  margin-bottom: 1.5rem;
+}
